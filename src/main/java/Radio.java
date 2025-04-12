@@ -1,11 +1,11 @@
 public class Radio {
 
-    public int currentStation;
-    public int currentVolume;
-    public int maxStation;
-    public int minStation;
-    public int maxVolume = 100;
-    public int minVolume = 0;
+    private int currentStation;
+    private int currentVolume;
+    private int maxStation;
+    private int minStation;
+    private int maxVolume = 100;
+    private int minVolume = 0;
 
     public Radio() {
         this.maxStation = 9;
